@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/i18next/8.1.0/i18next.min.js" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-i18next/1.2.0/jquery-i18next.min.js" ></script>
+    <script src="https://kit.fontawesome.com/a063eef338.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/card.css">
+    <script src=".//aboutme.js"></script>
+    <!-- <link rel="stylesheet" href="./css/snow.css"> -->
+    <link rel="shortcut icon" type="image/jpg" href="./images/icons/icons8-color-96.pngs"/>
+    <link rel="stylesheet" href="./style.css">
+ 
+    <title>민지.D</title>
+</head>
+<body>
+    <header class="nav">
+        <a href="#" data-i18n="nav.logo" class="logo"></a>
+        <ul>
+            <li><a href="#"  data-i18n="nav.home"></a></li>
+            <!-- <li><a href="#" data-i18n="nav.aboutMe"></a></li> -->
+            <li><a href="./portFolio.html" data-i18n="nav.portfolio"></a></li>
+            <!-- <li><a href="#" data-i18n="nav.contact"></a></li> -->
+        
+            <ul class="padt">
+                <div class="sl-nav">
+                    <div data-i18n="nav.language"></div>
+                    <ul>
+                      <li><b>Монгол хэл</b> <i class="fa fa-angle-down" aria-hidden="true"></i>
+                        <div class="triangle"></div>
+                        <ul id="langSelect">
+                          <li class="lang-select"><i class="sl-flag flag-kr"><div id="korean"></div></i> <span>한국어</span></li>
+                          <li class="lang-select"><i class="sl-flag flag-usa"><div id="english"></div></i> <span>English</span></li>
+                          <li class="lang-select"><i class="sl-flag flag-mn"><div id="mongolian"></div></i> <span>Монгол хэл</span></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>  
+                </ul>
+              </ul>
+    </header>
+
+    <section>
+        <img src="./images/stars.png" id="starts" class="stars">
+        <img src="./images/moon.png" id="moon" class="moon">
+        <img src="./images/mountains_behind.png" id="mountains_behind" class="mountains_behind">
+        <h2 id="text" class="text">Front end developer</h2>
+        <a href="#" id="btn" class="btn">PORTFOLIO</a>
+        <img src="./images/mountains_front.png" id="mountains_front" class="mountains_front">
+    </section>
+    <div class="gradient"></div>
+    <!-- aboutme -->
+    <div class="sec" id="sec">
+        <h2>About Me</h2>
+        <div class="aboutme">
+     <div class="imgBox photo">
+      <img src="./images/myAvatar (1).png">
+      <div class="glow-wrap">
+        <i class="glow"></i>
+      </div>
+     </div>
+     <div class="textBox">
+      <h3 class="titl typing-text anim-typewriter" data-i18n="textBox.hello"> </h3><br><br>
+      <p class="shortName" data-i18n="textBox.shortName"></p><br>
+      <p data-i18n="textBox.shortName2"></p><br>
+      <p data-i18n="textBox.shortName3"></p>
+      <p data-i18n="textBox.shortName4"></p>
+      <p data-i18n="textBox.shortName5"></p>
+       <ul class="sns"><a href="https://www.facebook.com/profile.php?id=100008239846756"><li class="icon facebook">
+        <span class="tooltip">Facebook</span>
+        <span><i class="fab fa-facebook-f"></i></span>
+      </li></a>
+        
+        <!-- <li class="icon Messenger">
+          <span class="tooltip">Messenger</span>
+          <span><i class="fab fa-facebook-messenger"></i></span>
+        </li> -->
+        <a href="https://www.facebook.com/profile.php?id=100008239846756"><li class="icon instagram">
+          <span class="tooltip">Instagram</span>
+          <span><i class="fab fa-instagram"></i></span>
+        </li></a>
+        
+        <a href="https://github.com/Beaka0717"><li class="icon github">
+          <span class="tooltip">Github</span>
+          <span><i class="fab fa-github"></i></span>
+        </li></a>
+        
+        <!-- <li class="icon gmail">
+          <span class="tooltip">Gmail</span>
+          <span><i class="fa fa-google"></i></span>
+        </li> -->
+        <!-- <li class="icon kakoa">
+          <span class="tooltip">Kakao</span>
+          <span><i><img src="./images/icons/free-icon-kakao-talk-2111496.png"></i></span>
+        </li> -->
+      </ul>
+     </div>
+    </div>
+    </div>
+    
+    <div class="education">
+      <h2 class="edu">Education</h2>
+      <hr>
+      <!-- <div class="cont">
+        <div class="course">
+          <p><span> Smart web & Web Content</span></p>
+          <p class="padY">Technical education academy</p>
+          <p class="textalign">5 mounts course</p>
+        </div>
+        <div class="res">
+          <p>2022.05.12 ~ 2022.11.17</p>
+          <p class="res-bg"> IN PROCESS</p>
+        </div>
+      </div> -->
+      <!-- <div class="cont">
+        <div class="course">
+          <p><span> Smart web & Web Content</span></p>
+          <p class="padY">Technical education academy</p>
+          <p class="textalign">5 mounts course</p>
+        </div>
+        <div class="res">
+          <p>2022.05.12 ~ 2022.11.17</p>
+          <p class="res-bg"> </p>
+        </div>
+      </div> -->
+    <div class="dflex">
+      <div class="academ">
+        <h2 class="shool_name" data-i18n="dflex.shool_name"></h2>
+        <h2 class="major" data-i18n="dflex.major"></h2>
+        <p class="timing"><span data-i18n="dflex.timing"></span></p>
+        <p class="location" data-i18n="dflex.location"></p>
+        <p class="process" data-i18n="dflex.process"></p>
+
+      </div>
+      <div class="academ">
+        <h2 class="shool_name" data-i18n="dflex.shool_name2"></h2>
+        <h2 class="major" data-i18n="dflex.major2"></h2>
+        <p class="timing"><span data-i18n="dflex.timing2"></span></p>
+        <p class="location" data-i18n="dflex.location2"></p>
+        <p class="process" data-i18n="dflex.process2"></p>
+
+      </div>
+      
+
+      <div class="academ">
+        <h2 class="shool_name" data-i18n="dflex.shool_name3"></h2>
+        <h2 class="major" data-i18n="dflex.major"></h2>
+        <p class="timing"><span data-i18n="dflex.timing"></span></p>
+        <p class="location" data-i18n="dflex.location"></p>
+        <p class="process" data-i18n="dflex.process"></p>
+
+      </div>
+
+      <div class="academ">
+        <h2 class="shool_name" data-i18n="dflex.shool_name4"></h2>
+        <h2 class="major" data-i18n="dflex.major4"></h2>
+        <p class="timing"><span data-i18n="dflex.timing4"></span></p>
+        <p class="location" data-i18n="dflex.location4"></p>
+        <p class="process" data-i18n="dflex.process4"></p>
+
+      </div>
+    </div>
+    </div>
+    <div class="skillport">
+      <h2 class="edu">SKILL</h2>
+      <hr>
+      <div class="nSpac"></div>
+      <div class="flxing">
+      <div class="skills">
+        <div class="skills-bar">
+          <div class="bar">
+            <div class="info">
+              <span>HTML</span>
+            </div>
+            <div class="progress-line"><span class="html"></span></div>
+            <div class="bar">
+              <div class="info">
+                <span>CSS/BOOTSTRAP/TAILWIND/SCSS</span>
+              </div>
+              <div class="progress-line"><span class="css"></span></div>
+              <div class="bar">
+                <div class="info">
+                  <span>database mysql/oracle</span>
+                </div>
+                <div class="progress-line"><span class="bootstrap"></span></div>
+                <div class="bar">
+                  <div class="info">
+                    <span>JAVASCRIPT/JQuery</span>
+                  </div>
+                  <div class="progress-line">
+                    <span class="javascript"></span>
+                  </div>
+                  <div class="bar">
+                    <div class="info">
+                      <span>JSP</span>
+                    </div>
+                    <div class="progress-line"><span class="c"></span></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="skills">
+        <div class="skills-bar">
+          <div class="bar">
+            <div class="info">
+              <span>React js</span>
+            </div>
+            <div class="progress-line"><span class="react"></span></div>
+            <div class="bar">
+              <div class="info">
+                <span>Angular js</span>
+              </div>
+              <div class="progress-line"><span class="angular"></span></div>
+              <div class="bar">
+                <div class="info">
+                  <span>Vue js</span>
+                </div>
+                <div class="progress-line"><span class="vue"></span></div>
+                <div class="bar">
+                  <div class="info">
+                    <span>Next js</span>
+                  </div>
+                  <div class="progress-line">
+                    <span class="next"></span>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+      
+    </div>
+    <div class="portfolio">
+      <h2 class="edu">PORTFOLIO</h2>
+      <hr>
+      <div class="cflex">
+      <div class="card hover">
+        <div class="card-img" style="background-image:url(./images/large.jpg);">
+          <div class="overlay">
+            <div class="overlay-content">
+              <a class="hover" href="https://beaka0717.github.io/gobi-caranserai/">View</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card-content">
+          <a href="#!">
+            <h2>호텔 사이트</h2>
+            <p>  현재 진행 중  </p>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card">
+        <div class="card-img" style="background-image:url(./images/glow-up.jpg);">
+          <div class="overlay">
+            <div class="overlay-content">
+              <a href="https://beaka0717.github.io/glowUp/">View</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card-content">
+          <a href="#!">
+            <h2>성형 리뷰 사이트</h2>
+            <p>진행 중</p>
+          </a>
+        </div>
+      </div>
+      
+      <div class="card">
+        <div class="card-img" style="background-image:url(./images/pig.webp);">
+          <div class="overlay">
+            <div class="overlay-content">
+              <a href="#!">View </a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card-content">
+          <a href="https://beaka0717.github.io/js-finance/">
+            <h2>javascript 가계부 </h2>
+            <p>진행중</p>
+          </a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-img" style="background-image:url(./images/dice.jpg);">
+          <div class="overlay">
+            <div class="overlay-content">
+              <a href="#!">View</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card-content">
+          <a href="https://beaka0717.github.io/dice-game/">
+            <h2>dice game</h2>
+            <p>완로 js 실습 게임</p>
+          </a>
+        </div>
+      </div>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+
+</html>

@@ -1,0 +1,78 @@
+.PP2{
+    padding-top: 150px;
+    color: #2b2b2b;
+  }
+  .plugin-cont{
+    max-width: 1200px;
+    margin: auto;
+  }
+  .slide_inner{
+    min-height: 60vh;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgb(0 0 0 / 40%);
+  }
+  .slide_inner a{
+    text-decoration: none;
+    color: #2b2b2b;
+  }
+  .slide_holder .slide_inner{
+    background: url(../images/porf_01.jpg) center/cover no-repeat ;
+  }
+  .slide_holder:nth-child(2) .slide_inner{
+    background: url(../images/icons/GlowUp.png) center/cover no-repeat ;
+  }
+  .slide_holder:nth-child(3) .slide_inner{
+    background: url(../images/icons/money-pig.webp) center/cover no-repeat ;
+  }
+  .slide_holder:nth-child(4) .slide_inner{
+    background:url(../images/icons/CRAPS.webp) center/cover no-repeat ;
+  }
+  .slide_holder{
+    padding: 15px;
+  }
+  .slide_holder :focus{
+    outline: none;
+  }
+  .slide_content{
+    max-width: 700px;
+    width: 100%;
+    background:rgba(255, 255, 255, 80%) ;
+    padding: 30px;
+    position: absolute;
+    right: 0;
+    bottom: 10%;
+    border-radius: 5px 0 0 5px ;
+  }
+  span.arrow{
+    display: block;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    background: url(../images/icons/arrow.svg) center/cover no-repeat ;
+    z-index: 1;
+    top: 45%;
+    cursor: pointer;
+    opacity: 0;
+    transform: .3s ease;
+  }
+  .slider_wrapper:hover span.arrow{
+    opacity: .5;
+  }
+  .slider_wrapper:hover span.arrow:hover{
+    opacity: 1;
+  }
+  span.arrow.next{
+    right: -50px;
+    transform: rotate(180deg);
+  }
+  span.arrow.prev{
+    left: -50px;
+  
+  
+  }
+  .slider_wrapper{
+    position: relative;
+    padding: 0 30px;
+  
+  }
