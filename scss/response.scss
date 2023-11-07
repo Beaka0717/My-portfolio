@@ -1,0 +1,9 @@
+@import './breakpoints.scss';
+@include md {
+    .aboutme{
+        flex-direction: row !important;
+        .textBox{
+            margin-top: 30px;
+        }
+    }
+}

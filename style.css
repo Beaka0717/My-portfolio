@@ -261,6 +261,7 @@ section img#mountains_front{
 .sec .aboutme{
   display:flex ;
   justify-content: space-evenly;
+  flex-direction: column;
 }
 .sec .aboutme .imgBox{
    width: 400px;
@@ -607,10 +608,10 @@ to {border-right-color: transparent;}
 }
 
 .progress-line .html {
-  width: 90%;
+  width: 95%;
 }
 .progress-line .css {
-  width: 90%;
+  width: 95%;
 }
 .progress-line .bootstrap {
   width: 82%;
@@ -623,13 +624,13 @@ to {border-right-color: transparent;}
 }
 
 .progress-line .react {
-  width: 30%;
+  width: 45%;
 }
 .progress-line .angular {
   width: 20%;
 }
 .progress-line .vue {
-  width: 20%;
+  width: 30%;
 }
 .progress-line .next {
   width: 20%;
@@ -664,10 +665,10 @@ to {border-right-color: transparent;}
 
 
 .progress-line .html::after {
-  content: "90%";
+  content: "95%";
 }
 .progress-line .css::after {
-  content: "90%";
+  content: "95%";
 }
 .progress-line .bootstrap::after {
   content: "80%";
@@ -680,13 +681,13 @@ to {border-right-color: transparent;}
 }
 
 .progress-line .react::after {
-  content: "30%";
+  content: "45%";
 }
 .progress-line .angular::after {
   content: "10%";
 }
 .progress-line .vue::after {
-  content: "10%";
+  content: "20%";
 }
 .progress-line .next::after {
   content: "10%";

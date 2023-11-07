@@ -28,6 +28,21 @@
   .slide_holder:nth-child(4) .slide_inner{
     background:url(../images/icons/CRAPS.webp) center/cover no-repeat ;
   }
+  .slide_holder:nth-child(5) .slide_inner{
+    background:url(../images/mouser.png) center/cover no-repeat ;
+  }
+  .slide_holder:nth-child(6) .slide_inner{
+    background:url(../images/seminar.png) center/cover no-repeat ;
+  }
+  .slide_holder:nth-child(7) .slide_inner{
+    background:url(../images/Starbucks\ korea.png) center/cover no-repeat ;
+  }
+  .slide_holder:nth-child(8) .slide_inner{
+    background:url(../images/ipad.png) center/cover no-repeat ;
+  }
+  .slide_holder:nth-child(9) .slide_inner{
+    background:url(../images/microsite.png) center/cover no-repeat ;
+  }
   .slide_holder{
     padding: 15px;
   }

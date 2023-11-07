@@ -1,0 +1,11 @@
+@media (min-width: 768px) {
+  .aboutme {
+    -webkit-box-orient: horizontal !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: row !important;
+            flex-direction: row !important;
+  }
+  .aboutme .textBox {
+    margin-top: 30px;
+  }
+}
